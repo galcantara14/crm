@@ -1,0 +1,362 @@
+html {
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    position: relative;
+    min-height: 100%;
+}
+body {
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    margin-bottom: 60px; /* Margin bottom by footer height */
+    font-size: 15px !important;
+}
+.footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    min-height: 60px;
+    max-height: 120px; /* Set the fixed height of the footer here */
+    line-height: 60px; /* Vertically center the text there */
+    background-color: #f5f5f5;
+}      
+a {
+    text-decoration:none;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    display: block;
+}  
+
+table{
+	font-weight: bold;
+    font-size:14px;
+}
+
+th{
+    font-weight: normal;
+}
+
+.reportsTitle{
+    
+    color: #0070c0;
+    font-size: 22px;
+    
+}
+
+.t1{
+    background-color: #1E90FF;
+    font-weight: bold;
+    color: white;
+}
+
+.t2{
+    background-color: #0070c0;
+    font-weight: bold;
+    color: white;
+}
+
+.toth{
+    background-color: #004b84;
+    font-weight: bold;
+    color: white;
+}
+
+.tt{
+    background-color: #000080;
+    font-weight: bold;
+    color: white;   
+}
+
+.dc{
+	background-color: #0070c0;
+    font-weight: bold;
+    color: white;
+}
+
+
+.hh{
+	background-color: #ff6600;
+    font-weight: bold;
+    color: white;
+}
+
+.dk{
+    background-color: #ffff00;
+    font-weight: bold;
+}
+
+.ap{
+    background-color: #009933;
+    font-weight: bold;
+    color: white;
+}
+
+.tlc{
+    background-color: #ff0000;
+    font-weight: bold;
+    color: white;
+}
+
+.id{
+    background-color: #eb3e09;
+    font-weight: bold;
+    color: white;
+}
+
+.dt{
+    background-color: #002060;
+    font-weight: bold;
+    color: white;
+}
+
+.fn{
+	background-color: #91203a;
+	font-weight: bold;
+	color: white;
+}
+
+.axn{
+    background-color: #ba1111;
+    font-weight: bold;
+    color: white;
+}
+
+.axd{
+    background-color: #ba1111;
+    font-weight: bold;
+    color: white;
+}
+
+.onl{
+	background-color: #6600ff;
+	font-weight: bold;
+    color: white;
+}
+
+.gc{
+    background-color: #8f60a6;
+    font-weight: bold;
+    color: white;
+}
+
+.ho{
+    background-color: #4ba396;
+    font-weight: bold;
+    color: white;
+}
+
+.ac{
+    background-color: #968d69;
+    font-weight: bold;
+    color: white;
+}
+
+.es{
+    background-color: #27247d;
+    font-weight: bold;
+    color: white;
+}
+
+.vix{
+	background-color: #29233d;
+    font-weight: bold;
+    color: white;
+}
+
+.tp{
+	background-color: #bbcc5e;
+    font-weight: bold;
+    color: white;
+}
+
+.df{
+	background-color: #616161;
+    font-weight: bold;
+    color: white;
+}
+
+.son{
+    background-color: #000000;
+    font-weight: bold;
+    color: white;
+}
+
+.sony{
+    background-color: #000000;
+    font-weight: bold;
+    color: white;
+}
+
+.wm{
+    background-color: #F6C50C;
+    font-weight: bold;
+    color: white;
+}
+
+.sd{
+    background-color: #000000;
+    font-weight: bold;
+    color: white;
+}
+
+.eus{
+    background-color: #000000;
+    font-weight: bold;
+    color: white;
+}
+
+.oth{
+    background-color: #808080;
+    font-weight: bold;
+    color: white;
+}
+
+.ias{
+    background-color: #21346b;
+    font-weight: bold;
+    color: white;
+}
+
+.hgtv{
+    background-color: #88cc00;
+    font-weight: bold;
+    color: black;
+}
+
+.dn{
+    background-color: #0f243e;
+    color: white;
+    font-weight: bold;
+}
+
+.atv{
+    background-color: #26ff00;
+    font-weight: bold;
+}
+
+.labelRight{
+    float: right;    
+}
+
+.labelLeft{
+	float: left;	
+}
+
+.labelCenter{
+    float: center;    
+}
+
+.bold{
+	font-weight: bold;
+}
+
+.center{
+	text-align: center;
+}
+
+.smBlue{
+    background-color: #143052;
+    color: white;
+    font-weight: bold;
+}
+
+.lightBlue{
+	font-weight: bold;
+    background-color: #0070c0;
+	color: white;	
+}
+
+.lightBlue2{
+    font-weight: bold;
+    background-color: #004a80;
+    color: white;   
+}
+
+.newBlue{
+    font-weight: bold;
+    background-color: #0047b3;
+    color: white;   
+}
+
+.medBlue{
+   font-weight: bold;
+   background-color:  #c3d8ef;
+}
+
+.coralBlue{
+    background-color: #bde3ff;
+    font-weight: bold;
+}
+
+.rcBlue{
+    font-weight: bold;
+    background-color: #c8d8e9;
+}
+
+.rcBlueSony{
+    font-weight: bold;
+    background-color:#4d7eb3;
+    color:white;
+}
+
+.lightb{
+    background-color: #bde3ff;
+}
+
+.othersc{
+    background-color: transparent;
+    font-weight: bold;
+}
+
+
+.darkBlue{
+    background-color: #0f243e;
+    color: white;
+    font-weight: bold;
+}
+
+.grey{
+	background-color: #757171;
+    color:white;
+}
+
+.lightGrey{
+	background-color: #a6a6a6;
+    color:black;	
+}
+
+.quarter{
+    background-color: #4f81bd;
+    color:white;   
+}
+
+.odd{
+	background-color: #e7eff9;
+}
+
+.oddSony{
+    background-color:#4571a1;
+    color:white;
+}
+
+
+.even{
+	background-color: #f9fbfd;
+}
+
+.even2{
+    background-color: #f9fbfd;
+    color: #ff0000;
+}
+.oddGrey{
+    background-color: #e6e6e6;
+}
+
+.evenGrey{
+    background-color: #f2f2f2;
+}
+
+.oddGreySony{
+    background-color: #d9d9d9;
+}
+
+.evenGreySony{
+    background-color: #cccccc;
+}
+
